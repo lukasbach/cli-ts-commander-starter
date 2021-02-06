@@ -15,9 +15,9 @@
     "start": "ts-node ./src/index.ts",
     "clean": "rimraf ./dist/ ./exec/",
     "build": "yarn clean && tsc",
-    "prepublish": "yarn build",
-    "test": "yarn build && ava --verbose",
-    "bundle": "yarn build && pkg . --out-dir ./exec/",
+    "prepublish": "yarn build && yarn test",
+    "test": "ava --verbose",
+    "bundle": "pkg . --out-dir ./exec/",
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write ."
   },
