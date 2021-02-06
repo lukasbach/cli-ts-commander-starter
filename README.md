@@ -17,7 +17,7 @@ A template repository for CLI tools based on Typescript and CommanderJs. Feature
   - checks prettier
   - bundles app into native binaries and deploys them as a GitHub release
   - deploys the package to NPM
-  
+
 Example repo: https://github.com/lukasbach/json-extract-path
 
 ## Setup template
@@ -36,7 +36,7 @@ Install globally via
 or directly use via
 
     npx {TOOLNAME}
-    
+
 You can also [download a prebuilt binary](https://github.com/lukasbach/cli-ts-commander-starter/releases) and run that.
 
 Usage:
@@ -59,5 +59,5 @@ Usage:
 
 Don't manually publish the package to NPM! You can just tag
 a commit with a new release tag (remember to bump the version
-in ``package.json``) and push the changes, a Github Action
+in `package.json`) and push the changes, a Github Action
 will deploy the new version to NPM.
