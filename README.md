@@ -17,13 +17,13 @@ A template repository for CLI tools based on Typescript and CommanderJs. Feature
   - checks prettier
   - bundles app into native binaries and deploys them as a GitHub release
   - deploys the package to NPM and GitHub packages
-  
+
 ## Setup template
 
-- Clone the template via the *Use this template* button or by clicking
-[here](https://github.com/lukasbach/cli-ts-commander-starter/generate).
-- Add a secret to GitHub with the name ``npm_token`` to allow NPM releases
-- Push tags with the format ``v0.0.0`` to automatically publish new releases.
+- Clone the template via the _Use this template_ button or by clicking
+  [here](https://github.com/lukasbach/cli-ts-commander-starter/generate).
+- Add a secret to GitHub with the name `npm_token` to allow NPM releases
+- Push tags with the format `v0.0.0` to automatically publish new releases.
 
 ## How to use
 
