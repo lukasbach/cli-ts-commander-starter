@@ -37,7 +37,7 @@ or directly use via
 
     npx {TOOLNAME}
     
-You can also [download a prebuilt binary](releases) and run that.
+You can also [download a prebuilt binary](https://github.com/lukasbach/cli-ts-commander-starter/releases) and run that.
 
 Usage:
 
