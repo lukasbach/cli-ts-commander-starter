@@ -1,5 +1,9 @@
 # CLI Typescript Commander Starter
 
+![Pretty](https://github.com/lukasbach/cli-ts-commander-starter/workflows/Pretty/badge.svg)
+![Testing](https://github.com/lukasbach/cli-ts-commander-starter/workflows/Testing/badge.svg)
+![Publish](https://github.com/lukasbach/cli-ts-commander-starter/workflows/Publish/badge.svg)
+
 A template repository for CLI tools based on Typescript and CommanderJs. Features
 
 - Test setup with AVA
