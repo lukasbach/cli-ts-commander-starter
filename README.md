@@ -16,7 +16,9 @@ A template repository for CLI tools based on Typescript and CommanderJs. Feature
   - builds app and runs tests
   - checks prettier
   - bundles app into native binaries and deploys them as a GitHub release
-  - deploys the package to NPM and GitHub packages
+  - deploys the package to NPM
+  
+Example repo: https://github.com/lukasbach/json-extract-path
 
 ## Setup template
 
@@ -34,6 +36,8 @@ Install globally via
 or directly use via
 
     npx {TOOLNAME}
+    
+You can also [download a prebuilt binary](releases) and run that.
 
 Usage:
 
@@ -50,6 +54,10 @@ Usage:
 - `yarn` to install dependencies
 - `yarn start` to run the CLI script for debugging
 - `yarn test` to run tests
-- `yarn publish` to publish a new version to NPM. Make sure to bump the version!
 - `yarn prettier:check` to verify that your code is pretty
 - `yarn prettier:write` to make your code pretty
+
+Don't manually publish the package to NPM! You can just tag
+a commit with a new release tag (remember to bump the version
+in ``package.json``) and push the changes, a Github Action
+will deploy the new version to NPM.
